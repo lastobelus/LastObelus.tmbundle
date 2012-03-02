@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>LastObelus</string>
+	<key>ordering</key>
+	<array>
+		<string>632DEB32-B03A-4500-B7F4-6F090251EE72</string>
+		<string>4D66D5FC-B278-457A-932E-971DAEAA9A23</string>
+		<string>F1D6BBBB-97B4-42D6-B2EB-4700E07E1EC1</string>
+		<string>2FE28CA9-7741-4AE9-965E-0A2D8F043E18</string>
+		<string>53849968-65B9-4C82-B416-6617E012FA52</string>
+		<string>B1FA6106-F3B0-4C8A-98F1-CA992B2EDED2</string>
+	</array>
+	<key>uuid</key>
+	<string>196AB0DD-6E8D-4A22-8485-54EC0099426C</string>
+</dict>
+</plist>

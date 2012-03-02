@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>commands</key>
+				<array>
+					<dict>
+						<key>command</key>
+						<string>moveToBeginningOfLine:</string>
+					</dict>
+					<dict>
+						<key>argument</key>
+						<dict>
+							<key>action</key>
+							<string>findNext</string>
+							<key>findInProjectIgnoreCase</key>
+							<false/>
+							<key>findString</key>
+							<string>\w</string>
+							<key>ignoreCase</key>
+							<true/>
+							<key>regularExpression</key>
+							<true/>
+							<key>replaceAllScope</key>
+							<string>document</string>
+							<key>wrapAround</key>
+							<true/>
+						</dict>
+						<key>command</key>
+						<string>findWithOptions:</string>
+					</dict>
+					<dict>
+						<key>command</key>
+						<string>moveLeft:</string>
+					</dict>
+				</array>
+			</dict>
+			<key>command</key>
+			<string>playMacroWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToEndOfLineAndModifySelection:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>deleteBackward:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^</string>
+	<key>name</key>
+	<string>clear line</string>
+	<key>uuid</key>
+	<string>632DEB32-B03A-4500-B7F4-6F090251EE72</string>
+</dict>
+</plist>

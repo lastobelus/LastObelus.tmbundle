@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$:.unshift File.join(File.dirname(__FILE__), 'lib')</string>
+	<key>name</key>
+	<string>$:.unshift File.join(__FILE__, 'lib') (libdir)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>libdir</string>
+	<key>uuid</key>
+	<string>B1FA6106-F3B0-4C8A-98F1-CA992B2EDED2</string>
+</dict>
+</plist>
