@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>begin;raise "boom";rescue =&gt; e;logger.debug(e.backtrace.join("\n"));end$0
+</string>
+	<key>name</key>
+	<string>backtrace (bakt)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>bakt</string>
+	<key>uuid</key>
+	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+</dict>
+</plist>

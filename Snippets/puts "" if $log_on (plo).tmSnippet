@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>puts "${1:stuff}" if \$log_on$0</string>
+	<key>name</key>
+	<string>puts "" if $log_on (plo)</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>plo</string>
+	<key>uuid</key>
+	<string>8D0D7F22-9E78-43D6-8896-071D8D4173F2</string>
+</dict>
+</plist>

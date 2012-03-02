@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$log_on = true$0</string>
+	<key>name</key>
+	<string>$log_on = true (tlo)</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>tlo</string>
+	<key>uuid</key>
+	<string>E3A9B444-A8F5-4D97-9CC9-3766C80D056A</string>
+</dict>
+</plist>
