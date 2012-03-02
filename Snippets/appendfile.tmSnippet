@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>File.open(${1:file}, 'a') {|f| f.write(${2:str}) }</string>
+	<key>name</key>
+	<string>appendfile</string>
+	<key>tabTrigger</key>
+	<string>appendfile</string>
+	<key>uuid</key>
+	<string>A67B1BAA-E60C-4230-8020-124F6F148C1F</string>
+</dict>
+</plist>

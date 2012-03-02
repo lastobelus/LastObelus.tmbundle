@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_presence_of :created_by$0</string>
+	<key>name</key>
+	<string>validates_presence_of :created_by  (vcby)
+</string>
+	<key>tabTrigger</key>
+	<string>vcby</string>
+	<key>uuid</key>
+	<string>31FDC744-7B5C-4597-A8B7-6738348CB8AB</string>
+</dict>
+</plist>

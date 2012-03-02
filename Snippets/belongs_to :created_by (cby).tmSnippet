@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>belongs_to :created_by, :class_name =&gt; 'User', :foreign_key =&gt; :created_by_id$0</string>
+	<key>name</key>
+	<string>belongs_to :created_by (cby)</string>
+	<key>tabTrigger</key>
+	<string>cby</string>
+	<key>uuid</key>
+	<string>215D2778-63C4-45F5-9C5E-7A436C6679BA</string>
+</dict>
+</plist>
