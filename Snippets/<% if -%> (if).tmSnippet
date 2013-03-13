@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>&lt;% if ${1:awesome?} -%&gt;
+  ${2:awesome}
+&lt;% end %&gt;$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>&lt;% if -%&gt; (if)</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>text.html.ruby</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>if</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>BF42D462-4B54-4873-AD43-D4E9D0195D03</string>
 </dict>
 </plist>

@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>&lt;% ${1:var}.each do |${1/@?(.*[^s])s?$/$1/}|-%&gt;
+ ${2}
+&lt;% end -%&gt;
+$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>&lt;% each -%&gt; (ea)</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>text.html.ruby</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>ea</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>EBB9B3CE-E1F7-4586-814B-9B97BC852A9A</string>
 </dict>
 </plist>

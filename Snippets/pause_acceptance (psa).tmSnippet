@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>exit unless \$test_ui.agree("${1:message}?", true) if ${2:@debug}$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>pause_acceptance (psa)</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>psa</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>E6680D78-5864-4CC8-82B4-2F00ACC56167</string>
 </dict>
 </plist>

@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>${1:@response}.should have_selector(
+  "${2:selector}"
+)$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>should have_selector (shas)</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source.ruby.rspec</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>shas</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>3995B4EE-7E22-479F-A9A5-460562AA2A33</string>
 </dict>
 </plist>

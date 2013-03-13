@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>\$debug = true$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>$debug = true (dbo)</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>dbo</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>C8F5FF5A-287C-4BE4-8891-8DF9311EBD2E</string>
 </dict>
 </plist>

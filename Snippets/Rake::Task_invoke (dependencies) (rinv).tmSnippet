@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>Rake::Task['${1:task-WITH-dependencies}'].invoke$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>Rake::Task.invoke (dependencies) (rinv)</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>rinv</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>537E327B-7225-410C-A478-FDCFCEC4A64F</string>
 </dict>
 </plist>

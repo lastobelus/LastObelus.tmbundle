@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
-</string>
+	<string>puts "${1:thing}: #{${1}.inspect}" if \$log_on$0</string>
 	<key>name</key>
-	<string>backtrace -- with raise (boom)</string>
+	<string>puts "obj: #{obj.inspect}" if $log_on (plog)</string>
 	<key>scope</key>
-	<string>source.ruby</string>
+	<string>source.ruby.rails</string>
 	<key>tabTrigger</key>
-	<string>boom</string>
+	<string>plog</string>
 	<key>uuid</key>
-	<string>C5BC9A9C-9C34-46FD-A54C-981384CD002B</string>
+	<string>E9D6640B-6664-45E2-A5A2-2A19E45CE40D</string>
 </dict>
 </plist>
