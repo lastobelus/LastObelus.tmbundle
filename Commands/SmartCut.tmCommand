@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoScrollOutput</key>
+	<false/>
+	<key>command</key>
+	<string>#! /bin/bash
+#
+if [ "x${TM_SELECTED_TEXT}" = "x" ]; then
+  txt="${TM_CURRENT_LINE}";
+else
+  txt="${TM_SELECTED_TEXT}";
+fi
+
+echo -n "$txt" | pbcopy</string>
+	<key>input</key>
+	<string>line</string>
+	<key>keyEquivalent</key>
+	<string>@x</string>
+	<key>name</key>
+	<string>SmartCut</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
+	<key>uuid</key>
+	<string>C8300D14-DE2F-48AF-B2C6-54E6CADB5B23</string>
+</dict>
+</plist>
