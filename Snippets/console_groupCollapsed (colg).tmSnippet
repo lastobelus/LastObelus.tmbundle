@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>console.groupCollapsed("${1:wat}");</string>
+	<key>name</key>
+	<string>console.groupCollapsed (colg)</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>colg</string>
+	<key>uuid</key>
+	<string>0F469858-E76B-4E79-ABDD-9A03D05DAEFC</string>
+</dict>
+</plist>

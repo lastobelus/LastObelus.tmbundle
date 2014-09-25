@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+fuck_you_alan = ['Nice job!', 'Way to go!', 'Wow, nice change!', 'Keep going, you\'re building up the billable hours!', 'Fuck You! No, just kidding. Good work.', 'You call that code, motherfucker?','what the hell?!?!']
+choice = fuck_you_alan[rand(fuck_you_alan.length)]
+
+puts %x{"$DIALOG" tooltip --html '&lt;h1 style="color: white;"&gt;#{choice}&lt;/h1&gt;' --transparent}.chomp</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>isDisabled</key>
+	<true/>
+	<key>keyEquivalent</key>
+	<string>@s</string>
+	<key>name</key>
+	<string>Encourage</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>BE52FE2D-CB0E-456A-A375-A1848F03CD05</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

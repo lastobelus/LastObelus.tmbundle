@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-console.log('  ${1:this}.${2:model}: '+Ember.inspect($1.get('$2'))); console.log($1.get('$2'));
-]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>colp</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
-</snippet>
