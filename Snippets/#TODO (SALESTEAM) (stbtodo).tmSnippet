@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>#TODO (SALESTEAM)</string>
 	<key>name</key>
-	<string>#TODO (SALESTEAM) (stbtodo)</string>
+	<string>obsolete</string>
 	<key>tabTrigger</key>
 	<string>stbtodo</string>
 	<key>uuid</key>
