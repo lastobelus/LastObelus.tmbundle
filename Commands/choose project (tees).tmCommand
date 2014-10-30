@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby18 -wKU
+require "#{ENV['TM_SUPPORT_PATH']}/lib/osx/plist"
+
+tm_dialog = ENV["DIALOG"]
+
+
+choices = &lt;&lt;EOF
+{title = "api"; path = /Users/lasto/clients/webify/teesforthepeople-api;},
+{title = "queue"; path = /Users/lasto/clients/webify/teesforthepeople-queue;},
+{title = "ember"; path = /Users/lasto/clients/webify/teesforthepeople-ember;}
+EOF
+
+s = %x{"$DIALOG" menu --items '(#{choices})'}
+if s &amp;&amp; (s.length &gt; 0)
+  p = OSX::PropertyList.load(s)
+  %x{mate #{p["path"]}}
+end
+</string>
+	<key>keyEquivalent</key>
+	<string>^@p</string>
+	<key>name</key>
+	<string>choose project (tees)</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>tabTrigger</key>
+	<string>gtee</string>
+	<key>uuid</key>
+	<string>B8B4CD89-6497-410B-9570-522F6D10FD99</string>
+</dict>
+</plist>

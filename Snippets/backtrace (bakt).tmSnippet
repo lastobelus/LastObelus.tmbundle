@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>begin;raise "boom";rescue =&gt; e;${1:RAILS_DEFAULT_LOGGER.debug}(e.backtrace[0..${2:5}].join("\n"));end$0
+	<string>begin;raise "boom";rescue =&gt; e;${1:Rails.logger.debug}(e.backtrace[0..${2:15}].join("\n"));end$0
 </string>
 	<key>name</key>
 	<string>backtrace -- with raise (boom)</string>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>property('$0')</string>
+	<string>true</string>
 	<key>name</key>
-	<string>property</string>
+	<string>true</string>
 	<key>scope</key>
-	<string>source.js</string>
+	<string>source</string>
 	<key>tabTrigger</key>
-	<string>pp</string>
+	<string>u</string>
 	<key>uuid</key>
-	<string>E9B54FB6-B103-45D0-8EB1-B2C50CC9516A</string>
+	<string>995A3543-549B-4FCA-961F-F824C6BAD1BB</string>
 </dict>
 </plist>
